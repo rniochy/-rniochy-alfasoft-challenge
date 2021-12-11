@@ -1,0 +1,43 @@
+.headerContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    height: 30%;
+    border-bottom: 1px solid rgb(182, 180, 180);
+    
+}
+
+.menuList {
+     display: flex;
+     list-style: none;
+     margin-left: -13%;
+     
+}
+.menuList li{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    border:  1px solid rgb(0, 153, 255);
+    margin-left: 5px;
+    border-radius: 5px;
+    transition: 0.05s ease-in-out;
+}
+
+.menuList li:hover{
+    background:  rgb(0, 153, 255);
+
+}
+.menuList a {
+     text-decoration: none;
+     color: rgb(66, 171, 241);
+}
+.menuList a:hover  {  color: white;}
+
+.headerText {
+     text-justify: auto;
+     font-size: 12pt;
+     font-weight: 500;
+     color: rgb(110, 110, 110);
+}
